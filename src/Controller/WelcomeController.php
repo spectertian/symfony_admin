@@ -13,7 +13,7 @@ class WelcomeController extends AbstractController
     public function index()
     {
         return $this->render('welcome/index.html.twig', [
-            'controller_name' => 'WelcomeControllerjj-ww-xxxxx'.date('Y-m-d H:i:s'),
+            'controller_name' => 'ddddddd-ww-xxxxx'.date('Y-m-d H:i:s'),
         ]);
     }
 }
