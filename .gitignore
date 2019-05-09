@@ -49,12 +49,11 @@
 /.web-server-pid
 
 .idea*
-.env
-.env*
+/public/AdminLTE-2.4.10 2
 
 ###> symfony/webpack-encore-bundle ###
 /node_modules/
-/public/build/
+
 npm-debug.log
 yarn-error.log
 ###< symfony/webpack-encore-bundle ###
