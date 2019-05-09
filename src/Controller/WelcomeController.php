@@ -12,8 +12,8 @@ class WelcomeController extends AbstractController
      */
     public function index()
     {
-        return $this->render('welcome/index.html.twig', [
-            'controller_name' => '欢迎eee'.date('Y-m-d H:i:s'),
+        return $this->render('welcome/index2.html.twig', [
+            'controller_name' => '欢迎'.date('Y-m-d H:i:s'),
         ]);
     }
 }
